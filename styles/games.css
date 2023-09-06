@@ -71,6 +71,14 @@ body {
 
 }
 
+.fa-brands{
+    font-size: 15px;
+    margin-left: 5px;
+    color: red;
+    
+    
+}
+
 
 /* Nav styles end here */
 
@@ -85,6 +93,7 @@ body {
     min-height: 50px;
     margin-bottom: 50px;
     
+    
 }
 
 .banner-part{
@@ -93,15 +102,16 @@ body {
     
 }
 
-.banner-para{
+.banner-text{
     margin-top: 100px;
+    width: 50%;
 }
 
 
 .banner-play {
     color: #0B0223;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
     text-align: left;
     
 
@@ -112,20 +122,23 @@ body {
     margin-top: -30px;
     margin-bottom: 0;
     font-size: 95px;
-    font-weight: 900;
-    background: linear-gradient(180deg, #F948B2 0%, hwb(258 32% 5%) 100%);
+    font-weight: bolder;
+    /* background: linear-gradient(180deg, #F948B2 0%, hwb(258 32% 5%) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: left;
+    text-align: left; */
+    background-image: linear-gradient(to bottom , #ec2b9f96 ,  #652fe2 );
+    color: transparent;
+    -webkit-background-clip: text;
     
 
 
 }
 
-.image-part{
-    width: 100%;
-    padding: 0 150px;
+.banner-image-part{
+    width: 50%;
+    
     height: 100%;
 
 }
@@ -134,6 +147,55 @@ body {
     text-align: left;
 }
 
-.banner button{
+
+
+
+.fa-sharp{
+    border: 1px solid black;
+    border-radius:50%
+}
+
+.fa-play{
+    padding: 5px;
+    color: red;
+}
+
+.fa-sharp.fa-play{
+    font-size: 10px;
+    text-align: center;
+}
+
+.fa-solid.fa-download{
+    color: rgb(223, 26, 59);
+}
+
+.fa-solid.fa-person{
+    font-size: 20px;
+}
+
+.banner-button{
+    display: flex;
+}
+.sign-button{
+    background-color: #F948B2;
+    border: none;
+    border-radius: 48px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
     
+}
+
+.go-button{
+    background-color: #4EC5F7;
+    border: none;
+    border-radius: 48px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }

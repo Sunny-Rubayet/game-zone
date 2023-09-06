@@ -2,35 +2,94 @@
 
 @media screen and (max-width:400px) {
 
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         padding-top: 100px;
     }
-    
+
     .menu-container {
-       flex-direction: column;
-       width: 100%;
-       
-      
-        
+        flex-direction: column;
+        width: 100%;
+
+
+
     }
 
-    .menu-container a{
+    .menu-container a {
         margin-top: 20px;
-       
+
     }
 
-    .menu-button{
+    .menu-button {
         margin-top: 20px;
         margin-bottom: 10px;
     }
 
-    .menu-container .menu-button{
+    .menu-container .menu-button {
         width: 100%;
     }
 
     /* Nav styles end here */
-    
+
+    /* Banner responsive starts */
+
+    .banner-part {
+
+
+        flex-direction: column;
+
+    }
+
+
+    .banner-image-part{
+        width: 10px;
+       
+       
+
+    }
+
+    .banner-text{
+        width: 100%;
+        
+        
+        
+    }
+
+    .banner-play{
+        font-size: 25px;
+
+    }
+
+    .banner-goat{
+        font-size: 50px;
+    }
+
+    .banner button{
+       display: inline;
+       margin-right: 10px;
+    }
+
+    .sign-button{
+        background-color: #F948B2;
+        border: none;
+        border-radius: 48px;
+        width: 80px;
+        height: 40px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 20px;
+        
+    }
+
+    .go-button{
+        background-color: #4EC5F7;
+        border: none;
+        border-radius: 48px;
+        width: 80px;
+        height: 40px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
 }
-
-
