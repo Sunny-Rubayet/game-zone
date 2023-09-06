@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans&display=swap');
+
+@media screen and (max-width:400px) {
+
+    .nav-container{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    
+    .menu-container {
+       flex-direction: column;
+       width: 100%;
+       
+      
+        
+    }
+
+    .menu-container a{
+        margin-top: 20px;
+       
+    }
+
+    .menu-button{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .menu-container .menu-button{
+        width: 100%;
+    }
+
+    /* Nav styles end here */
+    
+}
+
+

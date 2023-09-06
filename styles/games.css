@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    
+    padding: 0 80px;
+
+}
+
+
+.logo-container{
+    min-height: 50px;
+    margin-top: 0;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 50%;
+
+}
+
+.logo-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo-img{
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+   
+    
+}
+
+.color-change{
+    color: #FF42A5;
+
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: #3C354F;
+    
+}
+
+.menu-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container .menu-button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #3C354F;
+    align-items: center;
+    
+}
+
+
+/* Nav styles end here */
